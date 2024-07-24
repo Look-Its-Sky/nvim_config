@@ -68,5 +68,8 @@ return {
       { "<leader>ccc", "<cmd>CopilotChatToggle<cr>", desc = "CopilotChat - Toggle Panel" },
       { "<leader>cce", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain Code" }
     },
+  },
+  {
+    "WhoIsSethDaniel/toggle-lsp-diagnostics.nvim"
   }
 }

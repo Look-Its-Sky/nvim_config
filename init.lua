@@ -64,6 +64,6 @@ require("neocord").setup({
     line_number_text    = "Line %s out of %s",        -- Format string rendered when `enable_line_number` is set to true (either string or function(line_number: number, line_count: number): string)
     terminal_text       = "Using Terminal",           -- Format string rendered when in terminal mode.
 })
-
+require('toggle_lsp_diagnostics').init()
 
 vim.cmd(":Copilot enable")
